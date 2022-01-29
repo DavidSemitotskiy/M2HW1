@@ -38,5 +38,10 @@ namespace Logs
                 Console.WriteLine(item);
             }
         }
+
+        public string ConvertListToString()
+        {
+            return string.Join('\n', _logs);
+        }
     }
 }
