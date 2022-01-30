@@ -6,8 +6,8 @@ namespace M2HW1
     {
         public static void Main(string[] args)
         {
-            Starter.Run();
             Logger logger = Logger.Instance;
+            Starter.Run();
             logger.PrintLogs();
         }
     }
